@@ -98,6 +98,7 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  justify-content: space-between;
 }
 
 form label {
@@ -108,6 +109,7 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  justify-content: space-between;
 }
 
 form button {
