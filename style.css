@@ -41,6 +41,21 @@ main img {
   flex-direction: column;
 }
 
+.group-row {
+  display: flex;
+}
+
+#menu {
+  justify-content: center;
+  padding-bottom: 20px; 
+}
+
+.full-size-img {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 .item {
   flex: 1;
   margin: 10px;
@@ -117,3 +132,23 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+
+@media screen and (min-width: 768px) {
+  /* Styles for viewport width over 768px go here */
+  .flex-mobil-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-rows {
+    display: flex;
+  }
+
+  .about-images-section {
+    width: 50%;
+    display: flex;
+  }
+  .about-text {
+    width: 50%;
+  }
+}

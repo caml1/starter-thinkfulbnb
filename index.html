@@ -18,10 +18,10 @@
   </head>
 
   <body>
-    <header>
+    <header class = "flex-mobil-row">
       <div class="logo">Thinkfulbnb</div>
       <nav>
-        <ul id="menu">
+        <ul id="menu" class="group-row">
           <li><a>Stay</a></li>
           <li><a>About</a></li>
           <li><a>Ideas</a></li>
@@ -38,44 +38,51 @@
       </section>
 
       <!-- About -->
-      <section id="about" class="alternate-background">
+      <section id="about" class="alternate-background group">
         <h2>About</h2>
+        <section class="about-rows">
+          <section class="about-images-section">
 
-        <img
-          src="images/vacation-rental-pool.png"
-          alt="Thinkfulbnb - Vacation rental pool"
-        />
+            <img
+              src="images/vacation-rental-pool.png"
+              alt="Thinkfulbnb - Vacation rental pool"
+              class= "full-size-img";
+            />
 
-        <img
-          src="images/vacation-rental-inside-stone.png"
-          alt="Thinkfulbnb - Vacation rental inside stone"
-        />
+            <img
+              src="images/vacation-rental-inside-stone.png"
+              alt="Thinkfulbnb - Vacation rental inside stone"
+              class= "full-size-img";
+            />
+          </section>
 
-        <p>
-          Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
-          fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
-          porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
-          neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
-          gravida neque.
-        </p>
+          <p class="about-text">
+            Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
+            fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
+            porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
+            neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
+            gravida neque.
+          </p>
+        </section>
       </section>
 
       <!-- Ideas -->
-      <section id="ideas">
+      <section id="ideas" class="group">
         <h2>Ideas</h2>
         <h3>Forest retreats</h3>
         <img
           src="images/forest-retreat.png"
           alt="Thinkfulbnb - Forest retreat"
+          class= "full-size-img"
         />
         <h3>Beaches</h3>
-        <img src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
+        <img src="images/beach-house.png" alt="Thinkfulbnb - Beach house" class= "full-size-img"/>
 
         <h3>Rustic cabins</h3>
-        <img src="images/cabin.png" alt="Thinkfulbnb - Cabin" />
+        <img src="images/cabin.png" alt="Thinkfulbnb - Cabin" class= "full-size-img" />
 
         <h3>Pet-friendly</h3>
-        <img src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" />
+        <img src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" class= "full-size-img"/>
       </section>
 
       <!-- Host -->
@@ -99,7 +106,7 @@
           </li>
         </ul>
 
-        <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
+        <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" class= "full-size-img"/>
       </section>
     </main>
 
