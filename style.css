@@ -36,6 +36,19 @@ main img {
 
 /* ---  Groups & Items --- */
 
+.form-flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+form section label {
+  width: 30%;
+}
+
+form section input, form section select {
+  width: 70%;
+}
+
 .group {
   display: flex;
   flex-direction: column;
@@ -98,7 +111,6 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
-  justify-content: space-between;
 }
 
 .form-input {
@@ -114,7 +126,6 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  justify-content: space-between;
 }
 
 form button {
@@ -149,20 +160,39 @@ footer p {
   }
   .about-rows {
     display: flex;
+    direction: column;
+    justify-content: space-between;
   }
 
   .about-images-section {
-    width: 50%;
+    width: 20%;
     display: flex;
+  }
+  .full-size-img {
+    margin-right: 10px;
   }
   .about-text {
     width: 50%;
+    margin-top: 50px;
   }
   form {
     display: flex;
+    direction: row;
+  }
+  form section {
+    flex: 1;
+  }
+  form button {
+    flex: 1;
+    height: fit-content;
+    align-self: center;
+  }
+  .form-flex-row {
+    flex-direction: column;
   }
   .form-input {
     justify-content: flex-end;
     margin-left: 1px;
   }
+
 }
