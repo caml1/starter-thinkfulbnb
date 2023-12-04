@@ -194,5 +194,25 @@ footer p {
     justify-content: flex-end;
     margin-left: 1px;
   }
+  .ideas-content {
+    width: fit-content;
+    height: fit-content;
+  }
+  .ideas-row {
+    display: flex;
+    justify-content: center;
+    justify-items: flex-start;
+  }
+  .host-content {
+    display: flex;
+    direction: row;
+  }
+  .host-text {
+    width: 50%;
+    margin-top: 50px;
+  }
+  main img {
+    width: 500px;
+  }
 
 }
